@@ -11,6 +11,6 @@ def init
   price -= 5 if colors == 1
   price -= 10 if colors >= 2
   price *= tax
-  puts "Total price is #{price} including tax"
+  puts "Total price is #{price} including taxes"
 end
 init()
